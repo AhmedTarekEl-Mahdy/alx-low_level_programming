@@ -2,10 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - Entry point.
- *
- * Description: Using if statement for some conditions.
+/**
+ * main - determine if a random number is positive, negative or zero.
  *
  * Return: 0 (Success).
  */
