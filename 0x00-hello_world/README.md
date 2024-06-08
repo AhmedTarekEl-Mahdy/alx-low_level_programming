@@ -1,11 +1,11 @@
-0x00. C - Hello, World Tasks:
+0x00. C - Hello, World
 
 0. Preprocessor
 
 Write a script that runs a C file through the preprocessor and save the result into another file.
 
 The C file name will be saved in the variable $CFILE
-The output should be saved in the file 
+The output should be saved in the file c
 
 1. Compiler
 
@@ -63,11 +63,10 @@ The C file name will be saved in the variable $CFILE.
 The output file should be named the same as the C file, but with the extension .s instead of .c.
 Example: if the C file is main.c, the output file should be main.s
 
-8. UNIX is basically a simple system, but you have to be a genuis to understand the simplicity
+8. Unix is basically a simple operating system, but you have to be a genius to understand the simplicity
 
 Write a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
 
 You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts
 Your program should return 1
 Your program should compile without any warnings when using the -Wall gcc option
-
