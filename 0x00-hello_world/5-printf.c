@@ -3,7 +3,7 @@
 /**
  * main - Entry point.
  *
- * Description: A C program that prints exactly "with proper gramar,
+ * Description: A C program that prints exactly "with proper grammar,
  * but the outcome is a piece of art," followed
  * by a new line,
  * Using the function printf().
@@ -13,7 +13,7 @@
 
 int main(void)
 {
-	printf("with proper gramar, but the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 
 	return (0);
 }
