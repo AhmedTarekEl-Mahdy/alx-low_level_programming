@@ -3,8 +3,8 @@
 /**
  * main - Entry point.
  *
- * Description: A C program that exactly "Programming is
- * like building a multilingual puzzle",
+ * Description: A C program that exactly \"Programming is
+ * like building a multilingual puzzle,
  * Followed by a new line,
  * Using function puts().
  *
@@ -13,7 +13,7 @@
 
 int main(void)
 {
-	printf("Programming is like building a multilingual puzzle\n");
+	printf("\"Programming is like building a multilingual puzzle\n");
 
 	return (0);
 }
