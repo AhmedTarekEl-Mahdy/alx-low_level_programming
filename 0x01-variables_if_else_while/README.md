@@ -1,4 +1,4 @@
-0x01. C - Variables, if, else, while (Tasks)
+0x01. C - Variables, if, else, while
 
 0. Positive anything is better than negative nothing
 
@@ -30,7 +30,7 @@ if the last digit of n is 0: the string and is 0
 if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
 followed by a new line
 
-2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+2. I sometimes suffer from insomnia. And When I can't fall asleep, I play what I call the alphabet game
 
 Write a program that prints the alphabet in lowercase, followed by a new line.
 
@@ -46,7 +46,7 @@ You can only use the putchar function (every other function (printf, puts, etcâ€
 All your code should be in the main function
 You can only use putchar three times in your code
 
-4. When I was having that alphabet soup, I never thought that it would pay off
+4. When I was having that alphabet soup. I never thought that it would pay off
 
 Write a program that prints the alphabet in lowercase, followed by a new line.
 
@@ -70,7 +70,7 @@ You can only use the putchar function (every other function (printf, puts, etcâ€
 You can only use putchar twice in your code
 All your code should be in the main function
 
-7. Simile in the mirror
+7. Smile in the mirror
 
 Write a program that prints the lowercase alphabet in reverse, followed by a new line.
 
@@ -97,7 +97,7 @@ All your code should be in the main function
 You can only use putchar four times maximum in your code
 You are not allowed to use any variable of type char
 
-10. Inventing is a combination of brains and materials. The more brains you use, the less material you need
+10. Inventing is a combination of brains and materials. The more brains you use , the less material you need
 
 Write a program that prints all possible different combinations of two digits.
 
