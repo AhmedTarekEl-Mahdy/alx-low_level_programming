@@ -35,7 +35,7 @@ int main(void)
 				digit4 = 1;
 				while (digit4 <= 9)
 				{
-					if (digit1 + digit2 != digit3 + digit4)
+					if ((digit1 + digit2 + digit3 + digit4) > 36)
 					{
 						putchar(digit1 + 48);
 						putchar(digit2 + 48);
