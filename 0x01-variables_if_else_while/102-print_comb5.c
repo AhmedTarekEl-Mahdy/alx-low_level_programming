@@ -22,36 +22,30 @@
 
 int main(void)
 {
-	int digit1 = 0, digit2, digit3, digit4;
+	int firstComb = 0, secondComb;
 
-	while (digit1 <= 9)
+	while (firstComb <= 99)
 	{
-		digit2 = 0;
-		while (digit2 <= 9)
+		secondComb = firstComb;
+		while (secondComb <= 99)
 		{
-			digit3 = 0;
-			while (digit3 <= 9)
+			if (secondComb != firstComb)
 			{
-				digit4 = 1;
-				while (digit4 <= 9)
+				putchar((firstComb / 10) + 48);
+				putchar((firstComb % 10) + 48);
+				putchar(' ');
+				putchar((secondComb / 10) + 48);
+				putchar((secondComb % 10) + 48);
+
+				if (firstComb != 98 || secondComb != 99)
 				{
-					if ((digit1 + digit2 + digit3 + digit4) > 36)
-					{
-						putchar(digit1 + 48);
-						putchar(digit2 + 48);
-						putchar(' ');
-						putchar(digit3 + 48);
-						putchar(digit4 + 48);
-						putchar(',');
-						putchar(' ');
-					}
-					digit4++;
+					putchar(',');
+					putchar(' ');
 				}
-				digit3++;
 			}
-			digit2++;
+			secondComb++;
 		}
-		digit1++;
+		firstComb++;
 	}
 	putchar('\n');
 
