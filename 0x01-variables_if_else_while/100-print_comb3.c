@@ -1,7 +1,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
-
 /**
  * main - Entry point.
  *
@@ -13,7 +12,6 @@
  *
  * Return: Always 0 (Success).
  */
-
 int main(void)
 {
 	int num1 = '0', num2 = '1';
@@ -27,7 +25,6 @@ int main(void)
 			{
 				putchar(num1);
 				putchar(num2);
-				
 				if ((num1 + num2) != ('8' + '9'))
 				{
 					putchar(',');
