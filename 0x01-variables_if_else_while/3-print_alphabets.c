@@ -12,15 +12,15 @@
 
 int main(void)
 {
-	int lowerCase, upperCase;
+	int lower, upper;
 
-	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
+	for (lower = 'a'; lower <= 'z'; lower++)
 	{
-		putchar(lowerCase);
+		putchar(lower);
 	}
-	for (upperCase = 'A'; upperCase <= 'Z'; upperCase++)
+	for (upper = 'A'; upper <= 'Z'; upper++)
 	{
-		putchar(upperCase);
+		putchar(upper);
 	}
 	putchar('\n');
 
