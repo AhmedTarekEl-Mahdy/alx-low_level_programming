@@ -11,17 +11,17 @@ int print_last_digit(int n)
 {
 	int lastDigit;
 
-	if (n < 48)
+	if (n < 0)
 	{
 		lastDigit = (n * -1) % 10;
 		_putchar(lastDigit + 48);
 	}
-	else if (n > 48)
+	else if (n > 0)
 	{
 		lastDigit = (n % 10);
 		_putchar(lastDigit + 48);
 	}
-	else if (n == 48)
+	else if (n == 0)
 	{
 		lastDigit = n;
 		_putchar(lastDigit + 48);
