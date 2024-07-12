@@ -21,5 +21,10 @@ int print_last_digit(int n)
 		lastDigit = (n % 10);
 		_putchar(lastDigit + 48);
 	}
+	else
+	{
+		lastDigit = n;
+		_putchar(lastDigit + 48);
+	}
 	return (lastDigit);
 }
