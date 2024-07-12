@@ -3,7 +3,6 @@
 /**
  * print_last_digit - A function that prints the last digit of a number.
  * @n: The input integer value.
- * @lastDigit: The operation of the last Digit stored in.
  *
  * Return: lastDigit, otherwise 0.
  */
