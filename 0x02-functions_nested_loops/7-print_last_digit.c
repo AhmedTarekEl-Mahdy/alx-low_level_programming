@@ -14,17 +14,17 @@ int print_last_digit(int n)
 	if (n < 0)
 	{
 		lastDigit = -1 * n % 10;
-		_putchar(lastDigit + 48);
+		_putchar(lastDigit + '0');
 	}
 	else if (n > 0)
 	{
 		lastDigit = (n % 10);
-		_putchar(lastDigit + 48);
+		_putchar(lastDigit + '0');
 	}
 	else
 	{
 		lastDigit = n;
-		_putchar(lastDigit + 48);
+		_putchar(lastDigit + '0');
 	}
 	return (lastDigit);
 }
